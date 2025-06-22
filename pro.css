@@ -95,7 +95,7 @@ footer {
   margin-top: 40px;
   position: relative;
   bottom: 0;
-  width: 99%;
+  width: 100%;
 }
 
 footer a {
@@ -186,7 +186,7 @@ input[type="submit"]:hover {
     margin: 20px 0 0 0;
   }
   nav{
-    font-size: 13px;
+    font-size: 8px;
     padding: 10px;
   }
   nav a{
