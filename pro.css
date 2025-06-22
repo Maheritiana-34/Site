@@ -1,7 +1,6 @@
 body {
   font-family: Arial, sans-serif;
-  background-image: url(ciel-bleu-avec-un-visage-souriant.jpg);
-  background-size: 100%;
+  background: linear-gradient(-45deg, #6a11cb, #2575fc, #8e44ad, #3498db);
   font-size: 20px;
   margin: 10px;
   padding: 10px;
@@ -13,6 +12,14 @@ h1 {
   color: #333;
   text-align: center;
   margin-top: 20px;
+}
+
+p {
+  color: #CCCCCC;
+}
+
+strong {
+  color: #121212;
 }
 
 .h1 {
@@ -54,28 +61,28 @@ nav a:hover {
   text-decoration: underline;
 }
 
-.table{
+.table {
   display: table;
   margin: 0 auto;
 }
 
-.acc:hover{
+.acc:hover {
   border-top: 5px solid #4CB;
   background-color: rgba(241, 211, 79, 0.15);
 }
 
-.apro:hover{
-   border-top: 5px solid #f1dc4F;
+.apro:hover {
+  border-top: 5px solid #f1dc4F;
   background-color: rgba(64, 200, 130, 0.15);
 }
 
-.proj:hover{
-   border-top: 5px solid #0000ff;
+.proj:hover {
+  border-top: 5px solid #0000ff;
   background-color: rgba(000, 112, 192, 0.15);
 }
 
-.cont:hover{
-   border-top: 5px solid #e44d26;
+.cont:hover {
+  border-top: 5px solid #e44d26;
   background-color: rgba(228, 77, 38, 0.15);
 }
 
@@ -88,7 +95,7 @@ nav a:hover {
 }
 
 footer {
-  background-color: #333;
+  background: linear-gradient(-45deg, #6a11cb, #2575fc, #8e44ad, #3498db);
   color: white;
   text-align: center;
   padding: 15px;
@@ -96,10 +103,11 @@ footer {
   position: relative;
   bottom: 0;
   width: 100%;
+  right: 4%;
 }
 
 footer a {
-  color: #66ccff;
+  color: blue;
   text-decoration: none;
   margin: 0 5px;
 }
@@ -117,7 +125,7 @@ ul {
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 0 15px 10px blue,
-              0 0 15px 10px green;
+    0 0 15px 10px green;
 }
 
 li {
@@ -137,7 +145,7 @@ form {
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 0 15px 10px blue,
-              0 0 15px 10px green;
+    0 0 15px 10px green;
 }
 
 input[type="text"],
@@ -167,7 +175,7 @@ input[type="submit"]:hover {
 
 .p1 {
   display: inline-block;
-  padding: 0px  100px ;
+  padding: 0px 100px;
   overflow-wrap: break-word;
   box-sizing: border-box;
   background: linear-gradient(90deg, black, white, red);
@@ -177,22 +185,28 @@ input[type="submit"]:hover {
   animation: wave 10s linear infinite;
 }
 
-@media screen and (max-width: 720px){
-  header{
+@media screen and (max-width: 720px) {
+  header {
     height: 50px;
   }
-  h1{
+
+  h1 {
     font-size: 28px;
     margin: 20px 0 0 0;
   }
-  nav{
+
+  nav {
     font-size: 8px;
     padding: 10px;
   }
-  nav a{
+
+  nav a {
+    font-size: 13px;
     padding: 5px 10px 10px 10px;
   }
-  p,form{
+
+  p,
+  form {
     font-size: 17px;
     margin: 5px;
     padding: 5px;
