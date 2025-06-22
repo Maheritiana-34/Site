@@ -184,7 +184,7 @@ input[type="submit"]:hover {
   animation: wave 10s linear infinite;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
   header {
     height: 50px;
   }
