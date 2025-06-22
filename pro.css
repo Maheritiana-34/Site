@@ -175,7 +175,7 @@ input[type="submit"]:hover {
 
 .p1 {
   display: inline-block;
-  padding: 0px 100px;
+  
   overflow-wrap: break-word;
   box-sizing: border-box;
   background: linear-gradient(90deg, black, white, red);
@@ -185,7 +185,7 @@ input[type="submit"]:hover {
   animation: wave 10s linear infinite;
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 700px) {
   header {
     height: 50px;
   }
