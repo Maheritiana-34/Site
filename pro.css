@@ -1,0 +1,200 @@
+body {
+  font-family: Arial, sans-serif;
+  background-image: url(ciel-bleu-avec-un-visage-souriant.jpg);
+  background-size: 100%;
+  font-size: 20px;
+  margin: 10px;
+  padding: 10px;
+  line-height: 1.6;
+  overflow: scroll;
+}
+
+h1 {
+  color: #333;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.h1 {
+  background: linear-gradient(90deg, green, black, red);
+  background-size: 200% auto;
+  color: transparent;
+  -webkit-background-clip: text;
+  animation: wave 13s linear infinite;
+}
+
+@keyframes wave {
+  0% {
+    background-position: 0% center;
+  }
+
+  100% {
+    background-position: 200% center;
+  }
+}
+
+nav {
+  width: 100%;
+  margin: 0 auto;
+  background-color: rgba(241, 211, 79, 0.15);
+  padding: 10px;
+  border-radius: 10px;
+}
+
+nav a {
+  display: inline-block;
+  padding: 15px 70px;
+  color: blue;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.table{
+  display: table;
+  margin: 0 auto;
+}
+
+.acc:hover{
+  border-top: 5px solid #4CB;
+  background-color: rgba(241, 211, 79, 0.15);
+}
+
+.apro:hover{
+   border-top: 5px solid #f1dc4F;
+  background-color: rgba(64, 200, 130, 0.15);
+}
+
+.proj:hover{
+   border-top: 5px solid #0000ff;
+  background-color: rgba(000, 112, 192, 0.15);
+}
+
+.cont:hover{
+   border-top: 5px solid #e44d26;
+  background-color: rgba(228, 77, 38, 0.15);
+}
+
+.pa {
+  background: linear-gradient(90deg, white, blue, red);
+  background-size: 200% auto;
+  color: transparent;
+  -webkit-background-clip: text;
+  animation: wave 10s linear infinite;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 40px;
+  position: relative;
+  bottom: 0;
+  width: 99%;
+}
+
+footer a {
+  color: #66ccff;
+  text-decoration: none;
+  margin: 0 5px;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+ul {
+  width: 90%;
+  max-width: 1450px;
+  margin: 20px auto;
+  color: #444;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px 10px blue,
+              0 0 15px 10px green;
+}
+
+li {
+  background: linear-gradient(90deg, green, black, red);
+  background-size: 200% auto;
+  color: transparent;
+  -webkit-background-clip: text;
+  animation: wave 10s linear infinite;
+}
+
+form {
+  width: 90%;
+  max-width: 1450px;
+  margin: 20px auto;
+  color: #444;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px 10px blue,
+              0 0 15px 10px green;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 95%;
+  padding: 10px;
+  margin-top: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+input[type="submit"] {
+  background-color: #333;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+input[type="submit"]:hover {
+  background-color: #555;
+}
+
+
+.p1 {
+  display: inline-block;
+  padding: 0px  100px ;
+  overflow-wrap: break-word;
+  box-sizing: border-box;
+  background: linear-gradient(90deg, black, white, red);
+  background-size: 200% auto;
+  color: transparent;
+  -webkit-background-clip: text;
+  animation: wave 10s linear infinite;
+}
+
+@media screen and (max-width: 780px){
+  header{
+    height: 50px;
+  }
+  h1{
+    font-size: 28px;
+    margin: 20px 0 0 0;
+  }
+  nav{
+    font-size: 13px;
+    padding: 10px;
+  }
+  nav a{
+    padding: 5px 10px 10px 10px;
+  }
+  p,form{
+    font-size: 17px;
+    margin: 5px;
+    padding: 5px;
+  }
+}
