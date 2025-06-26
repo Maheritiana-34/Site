@@ -220,23 +220,4 @@ input[type="submit"]:hover {
     width: 94%;
     margin-right: 20px;
   }
-  .acc:hover {
-  border-top: 1px solid #4CB;
-  background-color: rgba(241, 211, 79, 0.15);
-}
-
-.apro:hover {
-  border-top: 1px solid #f1dc4F;
-  background-color: rgba(64, 200, 130, 0.15);
-}
-
-.proj:hover {
-  border-top: 1px solid #0000ff;
-  background-color: rgba(000, 112, 192, 0.15);
-}
-
-.cont:hover {
-  border-top: 1px solid #e44d26;
-  background-color: rgba(228, 77, 38, 0.15);
-}
 }
